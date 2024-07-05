@@ -1,0 +1,129 @@
+Body {
+  font-family: Arial, sans-serif;
+  background-image: url('IMG/imagem_de_fundo.jpg');
+  background-size: 2568 x 1680;
+  background-position: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #0e0d0d;
+}
+
+button {
+  background-color: rgb(17, 17, 17);
+  border: none;
+  color: rgb(24, 26, 25);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.section {
+  font-family: 'Gotham';
+  margin: 20px 0;
+}
+
+.header {
+  display: flex;
+  font-family: 'Gotham';
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-family: 'Gotham';
+  margin: 20px 0 10px 0;
+}
+
+.header button {
+  font-family: 'Gotham';
+  margin: 10px;
+}
+
+.contact-button {
+  font-family: 'Gotham';
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: #ffffffbb;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0 10px;
+  color:#0e0d0d
+}
+
+nav ul li a {
+  display: block;
+  color: #303030;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #0f0f0f;
+}
+.header h1,
+.header nav h2,
+.header nav ul li a{ 
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+  color: #000000;
+}
+
+section2 {
+  color: rgb(255, 0, 0);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.red-text {
+  color: rgb(236, 0, 0);
+}
+.titulo {
+  font-family: 'Gotham', ;
+  font-size: 24px;
+  font-weight: bold;
+ }
